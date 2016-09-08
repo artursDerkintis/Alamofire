@@ -413,6 +413,7 @@ class RequestDebugDescriptionTestCase: BaseTestCase {
 
         let manager = SessionManager(configuration: configuration)
         manager.startRequestsImmediately = false
+
         return manager
     }()
 
@@ -425,6 +426,7 @@ class RequestDebugDescriptionTestCase: BaseTestCase {
 
         let manager = SessionManager(configuration: configuration)
         manager.startRequestsImmediately = false
+
         return manager
     }()
 
